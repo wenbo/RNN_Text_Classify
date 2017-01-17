@@ -5,6 +5,7 @@ date:22/11/2016
 """
 import numpy as np
 import pickle
+import pdb
 #import cPickle as pkl
 
 #file path
@@ -39,6 +40,7 @@ def load_data(max_len,batch_size,n_words=20000,valid_portion=0.1,sort_by_len=Tru
     train_set_y = [train_set_y[s] for s in sidx[:n_train]]
 
 
+    pdb.set_trace()
     train_set = (train_set_x, train_set_y)
     valid_set = (valid_set_x, valid_set_y)
 

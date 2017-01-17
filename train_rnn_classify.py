@@ -5,6 +5,7 @@ import time
 import datetime
 from rnn_model import RNN_Model
 import data_helper
+import pdb
 
 
 flags =tf.app.flags
