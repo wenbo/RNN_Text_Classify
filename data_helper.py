@@ -53,6 +53,7 @@ def load_data(max_len,batch_size,n_words=20000,valid_portion=0.1,sort_by_len=Tru
     valid_set_x, valid_set_y = valid_set
     train_set_x, train_set_y = train_set
 
+    pdb.set_trace()
     train_set_x = remove_unk(train_set_x)
     valid_set_x = remove_unk(valid_set_x)
     test_set_x = remove_unk(test_set_x)

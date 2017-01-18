@@ -81,6 +81,7 @@ def evaluate(model,session,data,global_steps=None,summary_writer=None):
     return accuracy
 
 def run_epoch(model,session,data,global_steps,valid_model,valid_data,train_summary_writer,valid_summary_writer=None):
+    pdb.set_trace()
     for step, (x,y,mask_x) in enumerate(data_helper.batch_iter(data,batch_size=FLAGS.batch_size)):
 
         feed_dict={}
