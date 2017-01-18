@@ -1,4 +1,4 @@
-# http://blog.csdn.net/yhl_leo/article/details/50619029
+# http://blog.csdn.net/yhl_leo/article/details/50619029, namely https://www.tensorflow.org/get_started/basic_usage
 global_steps=run_epoch(model,session,train_data,global_steps,valid_model,valid_data,train_summary_writer,dev_summary_writer)
 def assign_new_batch_size(self,session,batch_size_value):
   session.run(self._batch_size_update,feed_dict={self.new_batch_size:batch_size_value})
