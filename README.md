@@ -49,3 +49,4 @@ tensorflow输入矩阵是指定的，但是一个batch的句子长度可能是�
 - [自己动手写word2vec (四):CBOW和skip-gram模型](http://blog.csdn.net/u014595019/article/details/51943428)
 - [自己动手写word2vec github](https://github.com/multiangle/pyword2vec)
 - [word2vec 中的数学原理详解（一）目录和前言](http://blog.csdn.net/itplus/article/details/37969519)
+- [word2vec 构建中文词向量](http://www.cnblogs.com/Newsteinwell/p/6034747.html)

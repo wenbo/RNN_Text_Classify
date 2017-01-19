@@ -1,4 +1,5 @@
 中文情感分析 python
+中文 word2vec
 
 #A chi-squared test, also written as χ2 test, is any statistical hypothesis test wherein the sampling distribution of the test statistic is a chi-squared distribution when the null hypothesis is true.
 
